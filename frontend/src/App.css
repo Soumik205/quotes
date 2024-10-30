@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.quote-card {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: gray;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+}
+
+.quote-card::before {
+  content: "“";
+}
+.quote-card::after {
+  content: "”";
+}
+
+.App button {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
